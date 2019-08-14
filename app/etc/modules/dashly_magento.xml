@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<config>
+    <modules>
+        <dashly_magento>
+            <active>true</active>
+            <codePool>community</codePool>
+        </dashly_magento>
+    </modules>
+</config>

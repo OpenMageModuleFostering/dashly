@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Dashly",
+    "type": "magento-module",
+    "license": "OSL",
+    "homepage": "",
+    "description": "Dashly is a real-time Magento Dashboard and Admin app for Android Phones &amp; Tablets. ",
+    "authors": [
+    {
+        "name": "LXRMarketPlace",
+        "email": "lxrmarketplace@netelixir.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

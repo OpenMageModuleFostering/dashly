@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<package>
+    <name>Dashly</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license>OSL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Dashly is a real-time Magento Dashboard and Admin app for Android Phones &amp;amp; Tablets. </summary>
+    <description>&lt;b&gt;You can access the Android App from the play store location:&#xD;
+&lt;a href="https://play.google.com/store/apps/details?id=com.lxrmarketplace.dashly&amp;amp;hl=en"&gt;Dashly from Google Play Store&lt;/a&gt;&lt;/b&gt;&#xD;
+&lt;br /&gt;&lt;br /&gt;&#xD;
+&lt;p&gt;Dashly is a real-time Magento Dashboard and Admin app for Android Phones &amp;amp; Tablets. It lets you connect to your Magento Store on mobile phones and tablets and get live access to all the vital store information such as Sales, Revenue, Invoice and Shipment information.&lt;/p&gt;&lt;p&gt;&#xD;
+You can also connect with any number of magento stores from your app. Best of all there is NO NEED for any coding. Anyone can simply install this app by creating an API user in your magento store. There is a helpful guide with screenshots to show how an API User and role can be created.&lt;/p&gt;&#xD;
+&#xD;
+Key Features &amp;amp; Benefits: &#xD;
+&lt;ul&gt;&#xD;
+&lt;li&gt;Keep track of all the vital sales &amp;amp; product metrics in a simple yet intuitive dashboard in real-time wherever you are.&lt;/li&gt;&#xD;
+&lt;li&gt;Get detailed information about each aspect of your ecommerce business by tapping the relevant widget. For example, if you want to know your revenue trend, just tap on the revenue widget and you can see the month till date revenue chart.&lt;/li&gt;&#xD;
+&lt;li&gt;You can take a deeper look at each order to know who placed the order and what were the items purchased within 2 taps.&lt;/li&gt;&#xD;
+&lt;li&gt;Dashly provides a quick look at the orders that are pending and which need your attention. If you choose to, you can simply generate an invoice or process a shipment, or even hold the order, directly from your mobile.&lt;/li&gt;&#xD;
+&lt;li&gt;You also receive automatic notifications on your mobile or tablet if a purchase is made or a certain product goes out of stock. The notification feature is especially useful during the holiday season as you would want to ensure that your popular products are in stock.&lt;/li&gt;&#xD;
+&lt;li&gt;You can add multiple magento stores targeting different geographies.&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+&#xD;
+You can access the Android App from the play store location:&lt;b&gt;&#xD;
+&lt;a href="https://play.google.com/store/apps/details?id=com.lxrmarketplace.dashly&amp;amp;hl=en"&gt;Dashly from Google Play Store&lt;/a&gt;&lt;/b&gt;</description>
+    <notes>Dashly is a real-time Magento Dashboard and Admin app for Android Phones &amp;amp; Tablets. &#xD;
+</notes>
+    <authors><author><name>LXRMarketPlace</name><user>lxrmp</user><email>lxrmarketplace@netelixir.com</email></author></authors>
+    <date>2015-07-22</date>
+    <time>07:10:54</time>
+    <contents><target name="magecommunity"><dir name="dashly"><dir name="magento"><dir name="Helper"><file name="Data.php" hash="f0ad69b14b87d75b55ab3cae0bb3ee2f"/></dir><dir name="controllers"><file name="ExampleController.php" hash="c475e9bae0652178a27ab391ca417fba"/></dir><dir name="etc"><file name="config.xml" hash="b42a1eaa16ddc86d06335bd20fd944c3"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="dashly_magento.xml" hash="6a45370da2ad454b1c51d82c67b76568"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

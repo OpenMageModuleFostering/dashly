@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+
+<config>
+    <modules>
+        <dashly_magento>
+            <version>0.1.0</version>
+        </dashly_magento>
+    </modules>
+        
+        
+<global>
+        <helpers>
+            <magento>
+                <class>dashly_magento_Helper</class>
+            </magento>  
+        </helpers>
+</global>        
+    
+    
+        <admin>
+        <routers>
+            <magento>
+                <use>admin</use>
+                <args>
+                    <module>dashly_magento</module>
+                    <frontName>magento</frontName>
+                </args>
+            </magento>
+        </routers>
+    </admin>
+    
+ 
+    
+    
+    <adminhtml>
+        <menu>
+            <menu1 translate="title" module="magento">
+                <title>Dashly</title>
+                <sort_order>60</sort_order>
+                <children>
+                    <menuitem1 module="magento">
+                        <title>Magento</title>
+                        <action>magento/example</action>
+                    </menuitem1>
+                </children>                
+            </menu1>
+        </menu>
+        <acl>
+            <resources>
+                <admin>
+                    <children>
+                        <menu1 translate="title" module="magento">
+							<title>Dashly</title>
+                			<sort_order>60</sort_order>
+                            <children>
+                                <menuitem1>
+                                    <title>Magento</title>
+                                </menuitem1>
+                            </children>
+                       </menu1>
+                   </children>
+               </admin>
+           </resources>
+        </acl>
+    </adminhtml>    
+    
+</config>
