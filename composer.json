@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Dashly",
+    "name": "openmage-module-fostering\/dashly",
     "type": "magento-module",
-    "license": "OSL",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Dashly is a real-time Magento Dashboard and Admin app for Android Phones &amp; Tablets. ",
     "authors": [
